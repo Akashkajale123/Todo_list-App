@@ -42,7 +42,7 @@ function App() {
   return (
     <>
       <Router>
-        <Header title={"MeriList"} searchBar={false} />
+        <Header title={"Todo App"} searchBar={false} />
         <Switch>
           <Route exact path="/" element={
             <>
